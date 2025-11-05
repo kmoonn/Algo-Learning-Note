@@ -1,0 +1,107 @@
+# 动态规划
+
+## 思想
+
+动态规划问题的一般形式就是**求最值**，比如求**最长**递增子序列、**最小**编辑距离。
+
+求解动态规划问题（求最值）的核心问题是**穷举**。
+
+动态规划的穷举不是暴力枚举，因为存在**重叠子问题**，可以利用 **备忘录（memo）** 或者 **DP table** 优化。
+
+通过**子问题**的最值，得到**原问题**的最值。
+
+如何正确且高效地穷举所有可行解，需要列出**正确的状态转移方程**。
+
+动态规划：将**递归**转换为**递推**的过程。
+
+动态规划的核心是递推（**状态定义 + 状态转移方程**），递推是动态规划的“引擎”。
+
+所有的动态规划问题都依赖于递推关系式（**状态转移方程**）。
+
+## 框架
+
+### 动规三要素
+
+1. 重叠子问题
+2. 最优子结构
+3. 状态转移方程
+
+#### 动规步骤
+
+找到 **“状态”** 和 **“选择”** ——> 明确 **dp 数组**的定义 ——> 寻找 **“状态”** 之间的关系
+
+### 代码结构
+
+1. 定义 dp 数组
+2. base case
+3. 穷举选择
+4. 状态转移
+
+## 优化
+
+### 记忆化搜索
+
+memo
+
+递归的优化，存储中间结果避免重复计算。
+
+**递归 + 备忘录(memo) = 记忆化搜索**，**动态规划**的一种形式。
+
+### 滚动数组
+
+如果状态转移只依赖于前两个或前几个状态，可以将原来的二维 DP 数组压缩为一维数组。
+
+### 状态压缩
+
+通过只记录必要的状态，减少空间占用。
+
+## 题目
+
+### 数学
+
+- [509. 斐波那契数]()
+- [118. 杨辉三角]()
+
+### 线性 DP
+
+适用于一维数组状态
+
+- [70. 爬楼梯]()
+- [746. 使用最小花费爬楼梯]()
+- [198. 打家劫舍](https://leetcode.cn/problems/house-robber)
+- [213. 打家劫舍 II](https://leetcode.cn/problems/house-robber-ii)
+
+
+### 子序列问题
+
+- [300. 最长递增子序列](https://leetcode.cn/problems/longest-increasing-subsequence)
+- [115. 不同的子序列](https://leetcode.cn/problems/distinct-subsequences)
+- [1143. 最长公共子序列](https://leetcode.cn/problems/longest-common-subsequence)
+- [516. 最长回文子序列](https://leetcode.cn/problems/longest-palindromic-subsequence)
+- [139. 单词拆分](https://leetcode.cn/problems/word-break)
+- [72. 编辑距离](https://leetcode.cn/problems/edit-distance)
+- [583. 两个字符串的删除操作]()
+- [53. 最大子数组和](https://leetcode.cn/problems/maximum-subarray)
+- [718. 最长重复子数组](https://leetcode.cn/problems/maximum-length-of-repeated-subarray)
+- [392. 判断子序列](https://leetcode.cn/problems/is-subsequence)
+
+### 背包
+
+#### 01 背包
+
+#### 完全背包
+
+- 求最优值
+  - [322. 零钱兑换]()
+
+- 求组合数
+  - [518. 零钱兑换 II]()
+
+- 求排列数
+  - []
+
+#### 子集背包
+
+### 二维 DP
+
+### 树形 DP
