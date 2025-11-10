@@ -18,6 +18,8 @@
 
 - 选哪个
 
+逐个遍历全部选择
+
 ### 组合型
 
 ### 排列型
@@ -28,8 +30,14 @@
 ## 题目
 
 - 组合型
-  - [77. 组合](https://leetcode.cn/problems/combinations)
-  - [39. 组合总和](https://leetcode.cn/problems/combination-sum)
-  - [40. 组合总和 II](https://leetcode.cn/problems/combination-sum-ii)
-  - [216. 组合总和 III](https://leetcode.cn/problems/combination-sum-iii)
-  - [17. 电话号码的字母组合](https://leetcode.cn/problems/letter-combinations-of-a-phone-number)
+  - [77. 组合](%5B77%5D组合.md)
+  - [39. 组合总和](%5B39%5D组合总和.md)
+  - [40. 组合总和 II](%5B40%5D组合总和%20II.md)
+  - [216. 组合总和 III](%5B216%5D组合总和%20III.md)
+  - [17. 电话号码的字母组合](%5B17%5D电话号码的字母组合.md)
+- 子集型
+  - [78. 子集](%5B78%5D子集.md)
+  - [90. 子集 II](%5B90%5D子集%20II.md)
+- 排列型
+  - [46. 全排列](%5B46%5D全排列.md)
+  - [47. 全排列 II](%5B47%5D全排列%20II.md)
