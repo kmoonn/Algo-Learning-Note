@@ -22,11 +22,12 @@
 
 ## 算法思想
 
- - [递归](algorithmic_thinking/recursion)
- - [递推](algorithmic_thinking/recurrence)
- - [回溯](algorithmic_thinking/back_track)
- - [记忆化搜索](algorithmic_thinking/dp)
- - [动态规划](algorithmic_thinking/dp)
- - [贪心](algorithmic_thinking/greedy)
- - [BFS](algorithmic_thinking/BFS)
- - [DFS](algorithmic_thinking/DFS)
+- [分治](algorithmic_thinking/divide_and_conquer)
+- [递归](algorithmic_thinking/recursion)
+- [递推](algorithmic_thinking/recurrence)
+- [回溯](algorithmic_thinking/back_track)
+- [记忆化搜索](algorithmic_thinking/dp)
+- [动态规划](algorithmic_thinking/dp)
+- [贪心](algorithmic_thinking/greedy)
+- [BFS](algorithmic_thinking/BFS)
+- [DFS](algorithmic_thinking/DFS)
