@@ -31,3 +31,10 @@
 - [贪心](algorithmic_thinking/greedy)
 - [BFS](algorithmic_thinking/BFS)
 - [DFS](algorithmic_thinking/DFS)
+
+## 手撕统计
+
+| 公司 | 面试平台 |   题目   |                                  力扣                                  |  难度  | 考查 |
+|:--:|:----:|:------:|:--------------------------------------------------------------------:|:----:|:--:|
+| 快手 | 萝卜面试 | 反转字符串  |                                                                      | easy |    |
+| 快手 | 萝卜面试 | 最长有效括号 | [32. 最长有效括号](https://leetcode.cn/problems/longest-valid-parentheses) | hard | 栈  |
