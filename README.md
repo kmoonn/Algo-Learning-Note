@@ -23,19 +23,17 @@
 
 ## 算法思想
 
+- [枚举/穷举](algorithmic_thinking/enumeration)
 - [分治](algorithmic_thinking/divide_and_conquer)
+  - [二分查找](algorithmic_thinking/divide_and_conquer/binary_search)
 - [递归](algorithmic_thinking/recursion)
 - [递推](algorithmic_thinking/recurrence)
+- [滑动窗口](algorithmic_thinking/sliding-window)
+- [前缀和](algorithmic_thinking/)
 - [回溯](algorithmic_thinking/back_track)
 - [记忆化搜索](algorithmic_thinking/dp)
 - [动态规划](algorithmic_thinking/dp)
 - [贪心](algorithmic_thinking/greedy)
 - [BFS](algorithmic_thinking/BFS)
 - [DFS](algorithmic_thinking/DFS)
-
-## 手撕统计
-
-| 公司 | 面试平台 |   题目   |                                  力扣                                  |  难度  | 考查 |
-|:--:|:----:|:------:|:--------------------------------------------------------------------:|:----:|:--:|
-| 快手 | 萝卜面试 | 反转字符串  |                                                                      | easy |    |
-| 快手 | 萝卜面试 | 最长有效括号 | [32. 最长有效括号](https://leetcode.cn/problems/longest-valid-parentheses) | hard | 栈  |
+- [排序](algorithmic_thinking/sorting)

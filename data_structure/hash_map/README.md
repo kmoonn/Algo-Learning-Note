@@ -1,21 +1,12 @@
-# 哈希
+# 哈希表
 
 ## 结构
 
-### HashMap
+键值对，键不允许重复。
 
-哈希表，键值对，键不允许重复。
-
-### HashSet
-
-哈希集合，元素不允许重复。
+值支持多种类型。
 
 ## 题目
 
-### 哈希表
-
-- [1. 两数之和](https://leetcode.cn/problems/two-sum)
-- [49. 字母异位词分组](https://leetcode.cn/problems/group-anagrams)
-
-### 哈希集合
-- [128. 最长连续序列](https://leetcode.cn/problems/longest-consecutive-sequence)
+- [1. 两数之和](%5B1%5D两数之和.md)
+- [49. 字母异位词分组](%5B49%5D字母异位词分组.md)
